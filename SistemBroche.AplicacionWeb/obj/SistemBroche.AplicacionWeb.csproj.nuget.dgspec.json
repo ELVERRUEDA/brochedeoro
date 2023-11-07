@@ -1,0 +1,332 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\brochedeoro\\brochedeoro\\SistemBroche.AplicacionWeb\\SistemBroche.AplicacionWeb.csproj": {}
+  },
+  "projects": {
+    "D:\\brochedeoro\\brochedeoro\\SistemaBroche.BLL\\SistemaBroche.BLL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\brochedeoro\\brochedeoro\\SistemaBroche.BLL\\SistemaBroche.BLL.csproj",
+        "projectName": "SistemaBroche.BLL",
+        "projectPath": "D:\\brochedeoro\\brochedeoro\\SistemaBroche.BLL\\SistemaBroche.BLL.csproj",
+        "packagesPath": "C:\\Users\\Rapsoda\\.nuget\\packages\\",
+        "outputPath": "D:\\brochedeoro\\brochedeoro\\SistemaBroche.BLL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Rapsoda\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\brochedeoro\\brochedeoro\\SistemaBroche.DAL\\SistemaBroche.DAL.csproj": {
+                "projectPath": "D:\\brochedeoro\\brochedeoro\\SistemaBroche.DAL\\SistemaBroche.DAL.csproj"
+              },
+              "D:\\brochedeoro\\brochedeoro\\SistemaBroche.Entity\\SistemaBroche.Entity.csproj": {
+                "projectPath": "D:\\brochedeoro\\brochedeoro\\SistemaBroche.Entity\\SistemaBroche.Entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\brochedeoro\\brochedeoro\\SistemaBroche.DAL\\SistemaBroche.DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\brochedeoro\\brochedeoro\\SistemaBroche.DAL\\SistemaBroche.DAL.csproj",
+        "projectName": "SistemaBroche.DAL",
+        "projectPath": "D:\\brochedeoro\\brochedeoro\\SistemaBroche.DAL\\SistemaBroche.DAL.csproj",
+        "packagesPath": "C:\\Users\\Rapsoda\\.nuget\\packages\\",
+        "outputPath": "D:\\brochedeoro\\brochedeoro\\SistemaBroche.DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Rapsoda\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\brochedeoro\\brochedeoro\\SistemaBroche.Entity\\SistemaBroche.Entity.csproj": {
+                "projectPath": "D:\\brochedeoro\\brochedeoro\\SistemaBroche.Entity\\SistemaBroche.Entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\brochedeoro\\brochedeoro\\SistemaBroche.Entity\\SistemaBroche.Entity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\brochedeoro\\brochedeoro\\SistemaBroche.Entity\\SistemaBroche.Entity.csproj",
+        "projectName": "SistemaBroche.Entity",
+        "projectPath": "D:\\brochedeoro\\brochedeoro\\SistemaBroche.Entity\\SistemaBroche.Entity.csproj",
+        "packagesPath": "C:\\Users\\Rapsoda\\.nuget\\packages\\",
+        "outputPath": "D:\\brochedeoro\\brochedeoro\\SistemaBroche.Entity\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Rapsoda\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\brochedeoro\\brochedeoro\\SistemaBroche.IOC\\SistemaBroche.IOC.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\brochedeoro\\brochedeoro\\SistemaBroche.IOC\\SistemaBroche.IOC.csproj",
+        "projectName": "SistemaBroche.IOC",
+        "projectPath": "D:\\brochedeoro\\brochedeoro\\SistemaBroche.IOC\\SistemaBroche.IOC.csproj",
+        "packagesPath": "C:\\Users\\Rapsoda\\.nuget\\packages\\",
+        "outputPath": "D:\\brochedeoro\\brochedeoro\\SistemaBroche.IOC\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Rapsoda\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\brochedeoro\\brochedeoro\\SistemaBroche.BLL\\SistemaBroche.BLL.csproj": {
+                "projectPath": "D:\\brochedeoro\\brochedeoro\\SistemaBroche.BLL\\SistemaBroche.BLL.csproj"
+              },
+              "D:\\brochedeoro\\brochedeoro\\SistemaBroche.DAL\\SistemaBroche.DAL.csproj": {
+                "projectPath": "D:\\brochedeoro\\brochedeoro\\SistemaBroche.DAL\\SistemaBroche.DAL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\brochedeoro\\brochedeoro\\SistemBroche.AplicacionWeb\\SistemBroche.AplicacionWeb.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\brochedeoro\\brochedeoro\\SistemBroche.AplicacionWeb\\SistemBroche.AplicacionWeb.csproj",
+        "projectName": "SistemBroche.AplicacionWeb",
+        "projectPath": "D:\\brochedeoro\\brochedeoro\\SistemBroche.AplicacionWeb\\SistemBroche.AplicacionWeb.csproj",
+        "packagesPath": "C:\\Users\\Rapsoda\\.nuget\\packages\\",
+        "outputPath": "D:\\brochedeoro\\brochedeoro\\SistemBroche.AplicacionWeb\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Rapsoda\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\brochedeoro\\brochedeoro\\SistemaBroche.BLL\\SistemaBroche.BLL.csproj": {
+                "projectPath": "D:\\brochedeoro\\brochedeoro\\SistemaBroche.BLL\\SistemaBroche.BLL.csproj"
+              },
+              "D:\\brochedeoro\\brochedeoro\\SistemaBroche.Entity\\SistemaBroche.Entity.csproj": {
+                "projectPath": "D:\\brochedeoro\\brochedeoro\\SistemaBroche.Entity\\SistemaBroche.Entity.csproj"
+              },
+              "D:\\brochedeoro\\brochedeoro\\SistemaBroche.IOC\\SistemaBroche.IOC.csproj": {
+                "projectPath": "D:\\brochedeoro\\brochedeoro\\SistemaBroche.IOC\\SistemaBroche.IOC.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.16, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+D:\brochedeoro\brochedeoro\SistemaBroche.BLL\bin\Debug\net6.0\SistemaBroche.BLL.deps.json
+D:\brochedeoro\brochedeoro\SistemaBroche.BLL\bin\Debug\net6.0\SistemaBroche.BLL.dll
+D:\brochedeoro\brochedeoro\SistemaBroche.BLL\bin\Debug\net6.0\SistemaBroche.BLL.pdb
+D:\brochedeoro\brochedeoro\SistemaBroche.BLL\obj\Debug\net6.0\SistemaBroche.BLL.GeneratedMSBuildEditorConfig.editorconfig
+D:\brochedeoro\brochedeoro\SistemaBroche.BLL\obj\Debug\net6.0\SistemaBroche.BLL.AssemblyInfoInputs.cache
+D:\brochedeoro\brochedeoro\SistemaBroche.BLL\obj\Debug\net6.0\SistemaBroche.BLL.AssemblyInfo.cs
+D:\brochedeoro\brochedeoro\SistemaBroche.BLL\obj\Debug\net6.0\SistemaBroche.BLL.csproj.CoreCompileInputs.cache
+D:\brochedeoro\brochedeoro\SistemaBroche.BLL\obj\Debug\net6.0\SistemaBroche.BLL.dll
+D:\brochedeoro\brochedeoro\SistemaBroche.BLL\obj\Debug\net6.0\refint\SistemaBroche.BLL.dll
+D:\brochedeoro\brochedeoro\SistemaBroche.BLL\obj\Debug\net6.0\SistemaBroche.BLL.pdb
+D:\brochedeoro\brochedeoro\SistemaBroche.BLL\obj\Debug\net6.0\ref\SistemaBroche.BLL.dll
+D:\brochedeoro\brochedeoro\SistemaBroche.BLL\bin\Debug\net6.0\SistemaBroche.DAL.dll
+D:\brochedeoro\brochedeoro\SistemaBroche.BLL\bin\Debug\net6.0\SistemaBroche.Entity.dll
+D:\brochedeoro\brochedeoro\SistemaBroche.BLL\bin\Debug\net6.0\SistemaBroche.DAL.pdb
+D:\brochedeoro\brochedeoro\SistemaBroche.BLL\bin\Debug\net6.0\SistemaBroche.Entity.pdb
+D:\brochedeoro\brochedeoro\SistemaBroche.BLL\obj\Debug\net6.0\SistemaBroche.BLL.csproj.AssemblyReference.cache
+D:\brochedeoro\brochedeoro\SistemaBroche.BLL\obj\Debug\net6.0\SistemaBroche.BLL.csproj.CopyComplete

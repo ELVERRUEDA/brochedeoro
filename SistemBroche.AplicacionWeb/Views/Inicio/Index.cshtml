@@ -1,0 +1,169 @@
+﻿
+@{
+    ViewData["Title"] = "Inicio";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<!-- Service Start -->
+    <div class="container-fluid pt-5">
+        <div class="container">
+            <div class="section-title">
+                <h4 class="text-primary text-uppercase" style="letter-spacing: 5px;">Nuestros servicios</h4>
+                <h1 class="display-4">Algo De Lo Nuestro</h1>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 mb-5">
+                    <div class="row align-items-center">
+                        <div class="col-sm-5">
+                            
+                                <img class="img-fluid mb-3 mb-sm-0 service-image" src="img/service-1.jpg" alt="" onclick="cambiarImagen(this, 1)">
+                            
+                        </div>
+                        <div class="col-sm-7">
+                            <h4><i class="fas fa-coffee service-icon"></i> Reposteria</h4>
+                        <p class="m-0">
+                            Nuestra Repostería: un mundo de sabores y creatividad. Desde pasteles artesanales hasta galletas crujientes, cada creación es una obra maestra. Satisfacemos tus antojos diarios y celebramos momentos especiales
+                        </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 mb-5">
+                    <div class="row align-items-center">
+                        <div class="col-sm-5">
+                            
+                                <img class="img-fluid mb-3 mb-sm-0 service-image" src="img/service-2.jpg" alt="" onclick="cambiarImagen(this, 2)">
+                           
+                        </div>
+                        <div class="col-sm-7">
+                            <h4><i class="fas fa-utensils service-icon"></i> Platos Fuertes</h4>
+                        <p class="m-0">
+                            Nuestros platos son una deliciosa sinfonía de sabores que te transportarán a lugares lejanos. Desde exquisitos mariscos hasta suculentos cortes de carne, cada bocado es una aventura culinaria única.
+                        </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 mb-5">
+                    <div class="row align-items-center">
+                        <div class="col-sm-5">
+                        <a>
+                                <img class="img-fluid mb-3 mb-sm-0 service-image" src="img/service-3.jpg" alt="" onclick="cambiarImagen(this, 3)">
+                           </a>
+                        </div>
+                        <div class="col-sm-7">
+                            <h4><i class="fas fa-cocktail service-icon"></i> Licores</h4>
+                        <p class="m-0">
+                            Nuestros licores son la expresión de la pasión destilada. Cada botella es un viaje sensorial, desde licores suaves hasta destilados audaces, que deleitarán su paladar y despiertan los sentidos
+                        </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 mb-5">
+                    <div class="row align-items-center">
+                        <div class="col-sm-5">
+                           
+                                <img class="img-fluid mb-3 mb-sm-0 service-image" src="img/servicio.jpg" alt="" onclick="cambiarImagen(this, 4)">
+                          
+                        </div>
+                        <div class="col-sm-7">
+                            <h4><i class="fas fa-hand-holding-heart service-icon"></i> Servicio</h4>
+                        <p class="m-0">
+                            Nuestro servicio ofrece soluciones innovadoras y eficientes, brindando satisfacción a nuestros clientes y mejorando sus experiencias. Descubre la excelencia con nosotros.
+                        </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const imagenesSecciones = [
+            "img/service-1.jpg",
+            "img/plato.jpg",
+            "img/chef.jpg",
+            "img/service-2.jpg",
+            "img/plato.jpg",
+            "img/chef.jpg",
+            "img/service-3.jpg",
+            "img/plato.jpg",
+            "img/chef.jpg",
+            "img/service-4.jpg",
+            "img/plato.jpg",
+            "img/chef.jpg",
+        ];
+
+        let indiceImagenes = [0, 0, 0, 0];
+
+        function cambiarImagen(imgElement, seccion) {
+            const nuevaImagen = imagenesSecciones[(seccion - 1) * 3 + indiceImagenes[seccion - 1]];
+            imgElement.src = nuevaImagen;
+            indiceImagenes[seccion - 1] = (indiceImagenes[seccion - 1] + 1) % 3;
+        }
+    </script>
+
+<!-- Service End -->
+<!-- Testimonial Start -->
+<div class="container-fluid py-5">
+    <div class="container">
+        <div class="section-title">
+            <h4 class="text-primary text-uppercase" style="letter-spacing: 5px;">Testimonios</h4>
+            <h1 class="display-4">Lo que dicen de nosotros</h1>
+        </div>
+        <div class="owl-carousel testimonial-carousel">
+            <div class="testimonial-item">
+                <div class="d-flex align-items-center mb-3">
+                    <img class="img-fluid" src="img/testimonial-1.jpg" alt="">
+                    <div class="ml-3">
+                        <h4>Carolina</h4>
+                        <i>Agente de viajes </i>
+                        <p class="m-0">
+                            La celebracion de fin de año fue la mejor!
+                        </p>
+                    </div>
+                </div>
+                <p class="m-0"></p>
+            </div>
+            <div class="testimonial-item">
+                <div class="d-flex align-items-center mb-3">
+                    <img class="img-fluid" src="img/testimonial-2.jpg" alt="">
+                    <div class="ml-3">
+                        <h4>Andres</h4>
+                        <i>Desarrollador</i>
+                        <p class="m-0">
+                        la presentacion de proyectos fue increible, muy buena organizacion.
+                        </p>
+                    </div>
+                </div>
+                <p class="m-0"></p>
+            </div>
+            <div class="testimonial-item">
+                <div class="d-flex align-items-center mb-3">
+                    <img class="img-fluid" src="img/testimonial-3.jpg" alt="">
+                    <div class="ml-3">
+                        <h4>Katerine</h4>
+                        <i>Ingeniero Civil</i>
+                        <p class="m-0">
+                            la reunion de bienvenida fue grandiosa, no habia probado un postre asi.
+                        </p>
+                    </div>
+                </div>
+                <p class="m-0"></p>
+            </div>
+            <div class="testimonial-item">
+                <div class="d-flex align-items-center mb-3">
+                    <img class="img-fluid" src="img/testimonial-4.jpg" alt="">
+                    <div class="ml-3">
+                        <h4>Fernando</h4>
+                        <i>Ingeniero Sistemas</i>
+                        <p class="m-0">
+                           El grado de la universidad fue muy bueno, volvere para mi matrimonio.
+                        </p>
+                    </div>
+                </div>
+                <p class="m-0"></p>
+            </div>
+        </div>
+    </div>
+</div>
+
