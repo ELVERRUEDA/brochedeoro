@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\SistemaBroche.Entity",
+    "\\SistemBroche.AplicacionWeb",
+    "\\SistemBroche.AplicacionWeb\\Properties"
   ],
-  "SelectedNode": "\\brochedeoro.sln",
+  "SelectedNode": "\\SistemaBroche.Entity\\Configuracion.cs",
   "PreviewInSolutionExplorer": false
 }
