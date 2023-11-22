@@ -1,10 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\SistemaBroche.Entity",
+    "\\SistemaBroche.DAL\\DBContext",
     "\\SistemBroche.AplicacionWeb",
-    "\\SistemBroche.AplicacionWeb\\Properties"
+    "\\SistemBroche.AplicacionWeb\\wwwroot",
+    "\\SistemBroche.AplicacionWeb\\wwwroot\\js"
   ],
-  "SelectedNode": "\\SistemaBroche.Entity\\Configuracion.cs",
+  "SelectedNode": "\\SistemBroche.AplicacionWeb\\Views",
   "PreviewInSolutionExplorer": false
 }
